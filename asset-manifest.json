@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/artbyeva/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/artbyeva/static/js/main.056b8ff4.chunk.js",
+    "main.js.map": "/artbyeva/static/js/main.056b8ff4.chunk.js.map",
+    "runtime-main.js": "/artbyeva/static/js/runtime-main.e414198d.js",
+    "runtime-main.js.map": "/artbyeva/static/js/runtime-main.e414198d.js.map",
+    "static/js/2.a466eb78.chunk.js": "/artbyeva/static/js/2.a466eb78.chunk.js",
+    "static/js/2.a466eb78.chunk.js.map": "/artbyeva/static/js/2.a466eb78.chunk.js.map",
+    "static/js/3.c6592044.chunk.js": "/artbyeva/static/js/3.c6592044.chunk.js",
+    "static/js/3.c6592044.chunk.js.map": "/artbyeva/static/js/3.c6592044.chunk.js.map",
+    "index.html": "/artbyeva/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/artbyeva/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.a466eb78.chunk.js.LICENSE.txt": "/artbyeva/static/js/2.a466eb78.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/artbyeva/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e414198d.js",
+    "static/js/2.a466eb78.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.056b8ff4.chunk.js"
+  ]
+}
