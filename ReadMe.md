@@ -44,3 +44,98 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+# This is Git's per-user configuration file.
+[user]
+    name = Tim James
+    email = timbjames@gmail.com
+[push]
+    default = simple
+    
+[branch]
+    autosetuprebase = always
+    
+[merge]
+    ff = true   
+[core]
+    editor = \"C:\\Users\\Tim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --wait
+    autocrlf = true
+[credential]
+[filter "lfs"]
+    clean = git-lfs clean %f
+    smudge = git-lfs smudge %f
+    required = true
+[code]
+    editor = code --wait    
+[diff]
+    tool = vscode
+[difftool]
+    prompt = true
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[difftool "vscode"]
+    keepbackup = false
+[merge]
+    tool = vscode
+[mergetool]
+    prompt = true
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
+    trustexitcode = true
+[mergetool "vscode"]
+    keepbackup = false
+[alias]
+    ec = config --global -e
+    aa = add --all
+    cm = commit -m
+    cma = commit -am
+    undo = reset --soft HEAD^
+    recommit = commit -a -c ORIG_HEAD
+    newb = checkout -b
+    co = checkout
+    lc = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+    ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cgreen\\ [%cn]" --decorate --numstat
+    lbr = log --graph --oneline --decorate --all
+    lbr2 = log --graph --pretty=oneline --abbrev-commit
+    lsa = "!git config -l | grep alias | cut -c 7-"
+    sl = stash list
+    ss = stash save
+    sa = stash apply
+    st = status -s
+    stl = status
+    br = branch
+    brr = branch -r
+    fap = fetch -p
+    df = diff
+    dw = diff --word-diff
+    dt = difftool
+    ds = diff --stat --stat-width=200
+    dl = diff --cached --stat HEAD^
+    cif = clean -i -f
+    ciff = clean -i -d
+    tg = for-each-ref --sort=taggerdate --format '%(refname)' refs/tags
+    yolo = "!git add --all; git commit -am \"DEAL WITH IT\"; git push origin master --force"
+    find = log --pretty=\"format:%Cgreen%H %Cblue%s\" --name-status --grep
+    
+[color]
+  ui = true
+  
+[color "diff"]
+    meta = white blue reverse
+    frag = reverse 
+    old = yellow bold
+    new = green bold
+    
+[color "branch"]
+    current = green bold
+    local = normal
+    remote = red black bold
+    
+[color "status"]
+  added = green bold
+  changed = green bold
+  untracked = yellow bold
+[credential]
+    helper = wincred
+
